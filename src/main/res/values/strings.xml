@@ -1,4 +1,0 @@
-<resources>
-    <string name="app_name">GAN你的DSDL</string>
-    <string name="ble_not_supported">滾辣，你又不支援BLE。</string>
-</resources>
