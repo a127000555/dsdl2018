@@ -66,17 +66,17 @@ sudo hciconfig hci0 leadv0  # advertisement
 
 ### Pybluez 
 
-Codes are in the `xble_server.py` code. (the server code should put in the same directory with `bitcoin.conf`)
+Codes are in the `xble_server.py` code. (the server code should put in the same directory with `bitcoin.conf`). We write our own service and characteristic.
 
-We write our own service and characteristic.
+In `class TestCharacteristic(Characteristic):`, two important methods `ReadValue, WriteValue` will deal with the iteraction with smartphone. The smartphone can write request to raspi3 and read value from raspi3.
 
-Our sellphone will only type `get wallet address` to request transaction address. And hard-coded many bitcoin command line in it (sign transaction)
+Three important functions are `sign` and `get_raw_trans` and `get_address`. The will fork a subprocess and call `bitcoin-cli` rpc calls to signrawtransaction, decoderawtransaction, and getnewaddress respectively.
 
 Noted that we also need to run `advertise.py` to keep our raspi3 advertising.
 
 ## Part 3 Other Issues
 
-1. Daemon Process
+### Daemon Process
 
 For the sake of build a cold wallet, we need to make all process as daemon process. If you want to set your systemd, you should edit one file in `/etc/systemd/system`. For example, we should edit one file:
 
@@ -98,7 +98,7 @@ WantedBy=multi-user.target
 
 Then, we can type `systemctl start [service-name].service` and enable it.
 
-2. Security
+### Security
 
 For the sake of security, we should disable some port, such as `ssh`.
 
