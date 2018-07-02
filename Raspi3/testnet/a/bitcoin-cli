@@ -1,0 +1,4 @@
+BITCOINCLI=bitcoin-cli
+
+${BITCOINCLI} -rpcport=28332 -datadir="." $@
+

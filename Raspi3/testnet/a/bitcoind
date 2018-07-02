@@ -1,0 +1,3 @@
+BITCOIND=bitcoind
+
+${BITCOIND} -daemon -regtest -port=28333 -rpcport=28332 -datadir="." $@

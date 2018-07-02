@@ -1,0 +1,1762 @@
+2018-06-30 11:35:55 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-06-30 11:35:55 Bitcoin version v0.14.2.0-b9ca77863
+2018-06-30 11:35:55 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2018-06-30 11:35:55 Validating signatures for all blocks.
+2018-06-30 11:35:55 Default data directory /home/pi/.bitcoin
+2018-06-30 11:35:55 Using data directory /home/pi/testnet/a/./regtest
+2018-06-30 11:35:55 Using config file /home/pi/testnet/a/./bitcoin.conf
+2018-06-30 11:35:55 Using at most 125 automatic connections (1024 file descriptors available)
+2018-06-30 11:35:55 Using 32 MiB out of 32 requested for signature cache, able to store 1048576 elements
+2018-06-30 11:35:55 Using 4 threads for script verification
+2018-06-30 11:35:55 scheduler thread start
+2018-06-30 11:35:55 HTTP: creating work queue of depth 16
+2018-06-30 11:35:55 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2018-06-30 11:35:55 HTTP: starting 4 worker threads
+2018-06-30 11:35:55 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-06-30 11:35:55 Using wallet wallet.dat
+2018-06-30 11:35:55 init message: Verifying wallet...
+2018-06-30 11:35:55 CDBEnv::Open: LogDir=/home/pi/testnet/a/./regtest/database ErrorFile=/home/pi/testnet/a/./regtest/db.log
+2018-06-30 11:35:55 Bound to [::]:28333
+2018-06-30 11:35:55 Bound to 0.0.0.0:28333
+2018-06-30 11:35:55 Cache configuration:
+2018-06-30 11:35:55 * Using 2.0MiB for block index database
+2018-06-30 11:35:55 * Using 8.0MiB for chain state database
+2018-06-30 11:35:55 * Using 440.0MiB for in-memory UTXO set (plus up to 286.1MiB of unused mempool space)
+2018-06-30 11:35:55 init message: Loading block index...
+2018-06-30 11:35:55 Opening LevelDB in /home/pi/testnet/a/./regtest/blocks/index
+2018-06-30 11:35:55 Opened LevelDB successfully
+2018-06-30 11:35:55 Using obfuscation key for /home/pi/testnet/a/./regtest/blocks/index: 0000000000000000
+2018-06-30 11:35:55 Opening LevelDB in /home/pi/testnet/a/./regtest/chainstate
+2018-06-30 11:35:55 Opened LevelDB successfully
+2018-06-30 11:35:55 Wrote new obfuscate key for /home/pi/testnet/a/./regtest/chainstate: aed0e86a8cc32285
+2018-06-30 11:35:55 Using obfuscation key for /home/pi/testnet/a/./regtest/chainstate: aed0e86a8cc32285
+2018-06-30 11:35:55 LoadBlockIndexDB: last block file = 0
+2018-06-30 11:35:55 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2018-06-30 11:35:55 Checking all blk files are present...
+2018-06-30 11:35:55 LoadBlockIndexDB: transaction index disabled
+2018-06-30 11:35:55 Initializing databases...
+2018-06-30 11:35:55 Pre-allocating up to position 0x1000000 in blk00000.dat
+2018-06-30 11:35:55 init message: Verifying blocks...
+2018-06-30 11:35:55  block index             162ms
+2018-06-30 11:35:55 init message: Loading wallet...
+2018-06-30 11:35:56 nFileVersion = 140200
+2018-06-30 11:35:56 Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2018-06-30 11:35:56 Performing wallet upgrade to 60000
+2018-06-30 11:35:56 keypool added key 1, size=1
+2018-06-30 11:35:56 keypool added key 2, size=2
+2018-06-30 11:35:56 keypool added key 3, size=3
+2018-06-30 11:35:56 keypool added key 4, size=4
+2018-06-30 11:35:56 keypool added key 5, size=5
+2018-06-30 11:35:56 keypool added key 6, size=6
+2018-06-30 11:35:56 keypool added key 7, size=7
+2018-06-30 11:35:57 keypool added key 8, size=8
+2018-06-30 11:35:57 keypool added key 9, size=9
+2018-06-30 11:35:57 keypool added key 10, size=10
+2018-06-30 11:35:57 keypool added key 11, size=11
+2018-06-30 11:35:57 keypool added key 12, size=12
+2018-06-30 11:35:57 keypool added key 13, size=13
+2018-06-30 11:35:57 keypool added key 14, size=14
+2018-06-30 11:35:57 keypool added key 15, size=15
+2018-06-30 11:35:57 keypool added key 16, size=16
+2018-06-30 11:35:57 keypool added key 17, size=17
+2018-06-30 11:35:57 keypool added key 18, size=18
+2018-06-30 11:35:57 keypool added key 19, size=19
+2018-06-30 11:35:57 keypool added key 20, size=20
+2018-06-30 11:35:57 keypool added key 21, size=21
+2018-06-30 11:35:58 keypool added key 22, size=22
+2018-06-30 11:35:58 keypool added key 23, size=23
+2018-06-30 11:35:58 keypool added key 24, size=24
+2018-06-30 11:35:58 keypool added key 25, size=25
+2018-06-30 11:35:58 keypool added key 26, size=26
+2018-06-30 11:35:58 keypool added key 27, size=27
+2018-06-30 11:35:58 keypool added key 28, size=28
+2018-06-30 11:35:58 keypool added key 29, size=29
+2018-06-30 11:35:58 keypool added key 30, size=30
+2018-06-30 11:35:58 keypool added key 31, size=31
+2018-06-30 11:35:58 keypool added key 32, size=32
+2018-06-30 11:35:59 keypool added key 33, size=33
+2018-06-30 11:35:59 keypool added key 34, size=34
+2018-06-30 11:35:59 keypool added key 35, size=35
+2018-06-30 11:35:59 keypool added key 36, size=36
+2018-06-30 11:35:59 keypool added key 37, size=37
+2018-06-30 11:35:59 keypool added key 38, size=38
+2018-06-30 11:35:59 keypool added key 39, size=39
+2018-06-30 11:35:59 keypool added key 40, size=40
+2018-06-30 11:35:59 keypool added key 41, size=41
+2018-06-30 11:35:59 keypool added key 42, size=42
+2018-06-30 11:35:59 keypool added key 43, size=43
+2018-06-30 11:36:00 keypool added key 44, size=44
+2018-06-30 11:36:00 keypool added key 45, size=45
+2018-06-30 11:36:00 keypool added key 46, size=46
+2018-06-30 11:36:00 keypool added key 47, size=47
+2018-06-30 11:36:00 keypool added key 48, size=48
+2018-06-30 11:36:00 keypool added key 49, size=49
+2018-06-30 11:36:00 keypool added key 50, size=50
+2018-06-30 11:36:00 keypool added key 51, size=51
+2018-06-30 11:36:00 keypool added key 52, size=52
+2018-06-30 11:36:00 keypool added key 53, size=53
+2018-06-30 11:36:01 keypool added key 54, size=54
+2018-06-30 11:36:01 keypool added key 55, size=55
+2018-06-30 11:36:01 keypool added key 56, size=56
+2018-06-30 11:36:01 keypool added key 57, size=57
+2018-06-30 11:36:01 keypool added key 58, size=58
+2018-06-30 11:36:01 keypool added key 59, size=59
+2018-06-30 11:36:01 keypool added key 60, size=60
+2018-06-30 11:36:01 keypool added key 61, size=61
+2018-06-30 11:36:01 keypool added key 62, size=62
+2018-06-30 11:36:01 keypool added key 63, size=63
+2018-06-30 11:36:01 keypool added key 64, size=64
+2018-06-30 11:36:01 keypool added key 65, size=65
+2018-06-30 11:36:01 keypool added key 66, size=66
+2018-06-30 11:36:02 keypool added key 67, size=67
+2018-06-30 11:36:02 keypool added key 68, size=68
+2018-06-30 11:36:02 keypool added key 69, size=69
+2018-06-30 11:36:02 keypool added key 70, size=70
+2018-06-30 11:36:02 keypool added key 71, size=71
+2018-06-30 11:36:02 keypool added key 72, size=72
+2018-06-30 11:36:02 keypool added key 73, size=73
+2018-06-30 11:36:02 keypool added key 74, size=74
+2018-06-30 11:36:02 keypool added key 75, size=75
+2018-06-30 11:36:02 keypool added key 76, size=76
+2018-06-30 11:36:02 keypool added key 77, size=77
+2018-06-30 11:36:02 keypool added key 78, size=78
+2018-06-30 11:36:02 keypool added key 79, size=79
+2018-06-30 11:36:02 keypool added key 80, size=80
+2018-06-30 11:36:03 keypool added key 81, size=81
+2018-06-30 11:36:03 keypool added key 82, size=82
+2018-06-30 11:36:03 keypool added key 83, size=83
+2018-06-30 11:36:03 keypool added key 84, size=84
+2018-06-30 11:36:03 keypool added key 85, size=85
+2018-06-30 11:36:03 keypool added key 86, size=86
+2018-06-30 11:36:04 keypool added key 87, size=87
+2018-06-30 11:36:04 keypool added key 88, size=88
+2018-06-30 11:36:04 keypool added key 89, size=89
+2018-06-30 11:36:04 keypool added key 90, size=90
+2018-06-30 11:36:04 keypool added key 91, size=91
+2018-06-30 11:36:04 keypool added key 92, size=92
+2018-06-30 11:36:04 keypool added key 93, size=93
+2018-06-30 11:36:04 keypool added key 94, size=94
+2018-06-30 11:36:04 keypool added key 95, size=95
+2018-06-30 11:36:04 keypool added key 96, size=96
+2018-06-30 11:36:04 keypool added key 97, size=97
+2018-06-30 11:36:04 keypool added key 98, size=98
+2018-06-30 11:36:04 keypool added key 99, size=99
+2018-06-30 11:36:04 keypool added key 100, size=100
+2018-06-30 11:36:04 keypool added key 101, size=101
+2018-06-30 11:36:05 keypool reserve 1
+2018-06-30 11:36:05 keypool keep 1
+2018-06-30 11:36:05  wallet                 9548ms
+2018-06-30 11:36:05 setKeyPool.size() = 100
+2018-06-30 11:36:05 mapWallet.size() = 0
+2018-06-30 11:36:05 mapAddressBook.size() = 1
+2018-06-30 11:36:05 UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1 tx=1 date='2011-02-02 23:16:42' progress=1.000000 cache=0.0MiB(0tx)
+2018-06-30 11:36:05 mapBlockIndex.size() = 1
+2018-06-30 11:36:05 Failed to open mempool file from disk. Continuing anyway.
+2018-06-30 11:36:05 nBestHeight = 0
+2018-06-30 11:36:05 torcontrol thread start
+2018-06-30 11:36:05 init message: Loading addresses...
+2018-06-30 11:36:05 ERROR: Read: Failed to open file /home/pi/testnet/a/./regtest/peers.dat
+2018-06-30 11:36:05 Invalid or missing peers.dat; recreating
+2018-06-30 11:36:05 init message: Loading banlist...
+2018-06-30 11:36:05 ERROR: Read: Failed to open file /home/pi/testnet/a/./regtest/banlist.dat
+2018-06-30 11:36:05 Invalid or missing banlist.dat; recreating
+2018-06-30 11:36:05 init message: Starting network threads...
+2018-06-30 11:36:05 net thread start
+2018-06-30 11:36:05 dnsseed thread start
+2018-06-30 11:36:05 opencon thread start
+2018-06-30 11:36:05 Loading addresses from DNS seeds (could take a while)
+2018-06-30 11:36:05 msghand thread start
+2018-06-30 11:36:05 init message: Done loading
+2018-06-30 11:36:05 0 addresses found from DNS seeds
+2018-06-30 11:36:05 dnsseed thread exit
+2018-06-30 11:36:05 addcon thread start
+2018-06-30 11:36:05 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 11:36:19 tor: Thread interrupt
+2018-06-30 11:36:19 torcontrol thread exit
+2018-06-30 11:36:19 addcon thread exit
+2018-06-30 11:36:19 opencon thread exit
+2018-06-30 11:36:19 scheduler thread interrupt
+2018-06-30 11:36:19 Shutdown: In progress...
+2018-06-30 11:36:19 msghand thread exit
+2018-06-30 11:36:19 net thread exit
+2018-06-30 11:36:19 Dumped mempool: 1.5e-05s to copy, 0.020203s to dump
+2018-06-30 11:36:19 Shutdown: done
+2018-06-30 13:38:32 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-06-30 13:38:32 Bitcoin version v0.14.2.0-b9ca77863
+2018-06-30 13:38:32 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2018-06-30 13:38:32 Validating signatures for all blocks.
+2018-06-30 13:38:32 Default data directory /home/pi/.bitcoin
+2018-06-30 13:38:32 Using data directory /home/pi/testnet/a/./regtest
+2018-06-30 13:38:32 Using config file /home/pi/testnet/a/./bitcoin.conf
+2018-06-30 13:38:32 Using at most 125 automatic connections (1024 file descriptors available)
+2018-06-30 13:38:32 Using 32 MiB out of 32 requested for signature cache, able to store 1048576 elements
+2018-06-30 13:38:32 Using 4 threads for script verification
+2018-06-30 13:38:32 scheduler thread start
+2018-06-30 13:38:32 HTTP: creating work queue of depth 16
+2018-06-30 13:38:32 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2018-06-30 13:38:32 HTTP: starting 4 worker threads
+2018-06-30 13:38:32 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-06-30 13:38:32 Using wallet wallet.dat
+2018-06-30 13:38:32 init message: Verifying wallet...
+2018-06-30 13:38:32 CDBEnv::Open: LogDir=/home/pi/testnet/a/./regtest/database ErrorFile=/home/pi/testnet/a/./regtest/db.log
+2018-06-30 13:38:33 Bound to [::]:28333
+2018-06-30 13:38:33 Bound to 0.0.0.0:28333
+2018-06-30 13:38:33 Cache configuration:
+2018-06-30 13:38:33 * Using 2.0MiB for block index database
+2018-06-30 13:38:33 * Using 8.0MiB for chain state database
+2018-06-30 13:38:33 * Using 440.0MiB for in-memory UTXO set (plus up to 286.1MiB of unused mempool space)
+2018-06-30 13:38:33 init message: Loading block index...
+2018-06-30 13:38:33 Opening LevelDB in /home/pi/testnet/a/./regtest/blocks/index
+2018-06-30 13:38:33 Opened LevelDB successfully
+2018-06-30 13:38:33 Using obfuscation key for /home/pi/testnet/a/./regtest/blocks/index: 0000000000000000
+2018-06-30 13:38:33 Opening LevelDB in /home/pi/testnet/a/./regtest/chainstate
+2018-06-30 13:38:33 Opened LevelDB successfully
+2018-06-30 13:38:33 Using obfuscation key for /home/pi/testnet/a/./regtest/chainstate: aed0e86a8cc32285
+2018-06-30 13:38:33 LoadBlockIndexDB: last block file = 0
+2018-06-30 13:38:33 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=293, heights=0...0, time=2011-02-02...2011-02-02)
+2018-06-30 13:38:33 Checking all blk files are present...
+2018-06-30 13:38:33 LoadBlockIndexDB: transaction index disabled
+2018-06-30 13:38:33 LoadBlockIndexDB: hashBestChain=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 date=2011-02-02 23:16:42 progress=1.000000
+2018-06-30 13:38:33 init message: Rewinding blocks...
+2018-06-30 13:38:33 init message: Verifying blocks...
+2018-06-30 13:38:33  block index             167ms
+2018-06-30 13:38:33 init message: Loading wallet...
+2018-06-30 13:38:33 nFileVersion = 140200
+2018-06-30 13:38:33 Keys: 102 plaintext, 0 encrypted, 102 w/ metadata, 102 total
+2018-06-30 13:38:33  wallet                   58ms
+2018-06-30 13:38:33 setKeyPool.size() = 100
+2018-06-30 13:38:33 mapWallet.size() = 0
+2018-06-30 13:38:33 mapAddressBook.size() = 1
+2018-06-30 13:38:33 mapBlockIndex.size() = 1
+2018-06-30 13:38:33 nBestHeight = 0
+2018-06-30 13:38:33 torcontrol thread start
+2018-06-30 13:38:33 Imported mempool transactions from disk: 0 successes, 0 failed, 0 expired
+2018-06-30 13:38:33 init message: Loading addresses...
+2018-06-30 13:38:33 Loaded 0 addresses from peers.dat  1ms
+2018-06-30 13:38:33 init message: Loading banlist...
+2018-06-30 13:38:33 init message: Starting network threads...
+2018-06-30 13:38:33 net thread start
+2018-06-30 13:38:33 dnsseed thread start
+2018-06-30 13:38:33 Loading addresses from DNS seeds (could take a while)
+2018-06-30 13:38:33 opencon thread start
+2018-06-30 13:38:33 msghand thread start
+2018-06-30 13:38:33 init message: Done loading
+2018-06-30 13:38:33 0 addresses found from DNS seeds
+2018-06-30 13:38:33 dnsseed thread exit
+2018-06-30 13:38:33 addcon thread start
+2018-06-30 13:38:33 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 13:39:01 keypool added key 102, size=101
+2018-06-30 13:39:01 keypool reserve 2
+2018-06-30 13:39:01 keypool keep 2
+2018-06-30 13:39:02 keypool added key 103, size=101
+2018-06-30 13:39:02 keypool reserve 3
+2018-06-30 13:39:02 keypool keep 3
+2018-06-30 13:39:04 keypool added key 104, size=101
+2018-06-30 13:39:04 keypool reserve 4
+2018-06-30 13:39:04 keypool keep 4
+2018-06-30 13:39:05 keypool added key 105, size=101
+2018-06-30 13:39:05 keypool reserve 5
+2018-06-30 13:39:05 keypool keep 5
+2018-06-30 13:39:06 keypool added key 106, size=101
+2018-06-30 13:39:06 keypool reserve 6
+2018-06-30 13:39:06 keypool keep 6
+2018-06-30 13:39:08 keypool added key 107, size=101
+2018-06-30 13:39:08 keypool reserve 7
+2018-06-30 13:39:08 keypool keep 7
+2018-06-30 13:39:09 keypool added key 108, size=101
+2018-06-30 13:39:09 keypool reserve 8
+2018-06-30 13:39:09 keypool keep 8
+2018-06-30 13:39:10 keypool added key 109, size=101
+2018-06-30 13:39:10 keypool reserve 9
+2018-06-30 13:39:10 keypool keep 9
+2018-06-30 13:39:13 keypool added key 110, size=101
+2018-06-30 13:39:13 keypool reserve 10
+2018-06-30 13:39:13 keypool keep 10
+2018-06-30 13:39:14 keypool added key 111, size=101
+2018-06-30 13:39:14 keypool reserve 11
+2018-06-30 13:39:14 keypool keep 11
+2018-06-30 13:39:33 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 13:39:34 Adding fixed seed nodes as DNS doesn't seem to be available.
+2018-06-30 13:40:34 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 13:41:34 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 13:42:35 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 13:43:35 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 13:44:36 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 13:45:36 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 13:46:37 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 13:46:55 tor: Thread interrupt
+2018-06-30 13:46:55 addcon thread exit
+2018-06-30 13:46:55 torcontrol thread exit
+2018-06-30 13:46:55 scheduler thread interrupt
+2018-06-30 13:46:55 opencon thread exit
+2018-06-30 13:46:55 Shutdown: In progress...
+2018-06-30 13:46:55 net thread exit
+2018-06-30 13:46:55 msghand thread exit
+2018-06-30 13:46:55 Dumped mempool: 1.5e-05s to copy, 0.024634s to dump
+2018-06-30 13:46:56 Shutdown: done
+2018-06-30 13:47:08 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-06-30 13:47:08 Bitcoin version v0.14.2.0-b9ca77863
+2018-06-30 13:47:08 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2018-06-30 13:47:08 Validating signatures for all blocks.
+2018-06-30 13:47:09 Default data directory /home/pi/.bitcoin
+2018-06-30 13:47:09 Using data directory /home/pi/testnet/a/./regtest
+2018-06-30 13:47:09 Using config file /home/pi/testnet/a/./bitcoin.conf
+2018-06-30 13:47:09 Using at most 125 automatic connections (1024 file descriptors available)
+2018-06-30 13:47:09 Using 32 MiB out of 32 requested for signature cache, able to store 1048576 elements
+2018-06-30 13:47:09 Using 4 threads for script verification
+2018-06-30 13:47:09 scheduler thread start
+2018-06-30 13:47:09 HTTP: creating work queue of depth 16
+2018-06-30 13:47:09 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2018-06-30 13:47:09 HTTP: starting 4 worker threads
+2018-06-30 13:47:09 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-06-30 13:47:09 Using wallet wallet.dat
+2018-06-30 13:47:09 init message: Verifying wallet...
+2018-06-30 13:47:09 CDBEnv::Open: LogDir=/home/pi/testnet/a/./regtest/database ErrorFile=/home/pi/testnet/a/./regtest/db.log
+2018-06-30 13:47:09 Bound to [::]:28333
+2018-06-30 13:47:09 Bound to 0.0.0.0:28333
+2018-06-30 13:47:09 Cache configuration:
+2018-06-30 13:47:09 * Using 2.0MiB for block index database
+2018-06-30 13:47:09 * Using 8.0MiB for chain state database
+2018-06-30 13:47:09 * Using 440.0MiB for in-memory UTXO set (plus up to 286.1MiB of unused mempool space)
+2018-06-30 13:47:09 init message: Loading block index...
+2018-06-30 13:47:09 Opening LevelDB in /home/pi/testnet/a/./regtest/blocks/index
+2018-06-30 13:47:09 Opened LevelDB successfully
+2018-06-30 13:47:09 Using obfuscation key for /home/pi/testnet/a/./regtest/blocks/index: 0000000000000000
+2018-06-30 13:47:09 Opening LevelDB in /home/pi/testnet/a/./regtest/chainstate
+2018-06-30 13:47:09 Opened LevelDB successfully
+2018-06-30 13:47:09 Using obfuscation key for /home/pi/testnet/a/./regtest/chainstate: aed0e86a8cc32285
+2018-06-30 13:47:09 LoadBlockIndexDB: last block file = 0
+2018-06-30 13:47:09 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=293, heights=0...0, time=2011-02-02...2011-02-02)
+2018-06-30 13:47:09 Checking all blk files are present...
+2018-06-30 13:47:09 LoadBlockIndexDB: transaction index disabled
+2018-06-30 13:47:09 LoadBlockIndexDB: hashBestChain=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 date=2011-02-02 23:16:42 progress=1.000000
+2018-06-30 13:47:09 init message: Rewinding blocks...
+2018-06-30 13:47:09 init message: Verifying blocks...
+2018-06-30 13:47:09  block index             469ms
+2018-06-30 13:47:09 init message: Loading wallet...
+2018-06-30 13:47:09 nFileVersion = 140200
+2018-06-30 13:47:09 Keys: 112 plaintext, 0 encrypted, 112 w/ metadata, 112 total
+2018-06-30 13:47:09  wallet                   57ms
+2018-06-30 13:47:09 setKeyPool.size() = 100
+2018-06-30 13:47:09 mapWallet.size() = 0
+2018-06-30 13:47:09 mapAddressBook.size() = 11
+2018-06-30 13:47:09 mapBlockIndex.size() = 1
+2018-06-30 13:47:09 nBestHeight = 0
+2018-06-30 13:47:09 Imported mempool transactions from disk: 0 successes, 0 failed, 0 expired
+2018-06-30 13:47:09 torcontrol thread start
+2018-06-30 13:47:09 init message: Loading addresses...
+2018-06-30 13:47:09 Loaded 0 addresses from peers.dat  1ms
+2018-06-30 13:47:09 init message: Loading banlist...
+2018-06-30 13:47:09 init message: Starting network threads...
+2018-06-30 13:47:09 net thread start
+2018-06-30 13:47:09 dnsseed thread start
+2018-06-30 13:47:09 opencon thread start
+2018-06-30 13:47:09 Loading addresses from DNS seeds (could take a while)
+2018-06-30 13:47:09 init message: Done loading
+2018-06-30 13:47:09 msghand thread start
+2018-06-30 13:47:09 0 addresses found from DNS seeds
+2018-06-30 13:47:09 dnsseed thread exit
+2018-06-30 13:47:09 addcon thread start
+2018-06-30 13:47:09 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 13:48:10 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 13:48:10 Adding fixed seed nodes as DNS doesn't seem to be available.
+2018-06-30 13:49:10 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 13:50:11 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 13:51:11 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 13:52:12 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 13:53:12 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 13:54:13 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 13:54:55 keypool added key 112, size=101
+2018-06-30 13:54:55 keypool reserve 12
+2018-06-30 13:54:55 keypool keep 12
+2018-06-30 13:55:13 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 13:56:05 keypool added key 113, size=101
+2018-06-30 13:56:05 keypool reserve 13
+2018-06-30 13:56:05 keypool keep 13
+2018-06-30 13:56:11 keypool added key 114, size=101
+2018-06-30 13:56:11 keypool reserve 14
+2018-06-30 13:56:11 keypool keep 14
+2018-06-30 13:56:14 connect() to [::1]:38333 failed after select(): Connection refused (111)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         2018-06-30 14:17:24 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-06-30 14:17:24 Bitcoin version v0.14.2.0-b9ca77863
+2018-06-30 14:17:24 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2018-06-30 14:17:24 Validating signatures for all blocks.
+2018-06-30 14:17:24 Default data directory /home/pi/.bitcoin
+2018-06-30 14:17:24 Using data directory /home/pi/testnet/a/./regtest
+2018-06-30 14:17:24 Using config file /home/pi/testnet/a/./bitcoin.conf
+2018-06-30 14:17:24 Using at most 125 automatic connections (1024 file descriptors available)
+2018-06-30 14:17:25 Using 32 MiB out of 32 requested for signature cache, able to store 1048576 elements
+2018-06-30 14:17:25 Using 4 threads for script verification
+2018-06-30 14:17:25 scheduler thread start
+2018-06-30 14:17:25 HTTP: creating work queue of depth 16
+2018-06-30 14:17:25 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2018-06-30 14:17:25 HTTP: starting 4 worker threads
+2018-06-30 14:17:25 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-06-30 14:17:25 Using wallet wallet.dat
+2018-06-30 14:17:25 init message: Verifying wallet...
+2018-06-30 14:17:25 CDBEnv::Open: LogDir=/home/pi/testnet/a/./regtest/database ErrorFile=/home/pi/testnet/a/./regtest/db.log
+2018-06-30 14:17:25 Bound to [::]:28333
+2018-06-30 14:17:25 Bound to 0.0.0.0:28333
+2018-06-30 14:17:25 Cache configuration:
+2018-06-30 14:17:25 * Using 2.0MiB for block index database
+2018-06-30 14:17:25 * Using 8.0MiB for chain state database
+2018-06-30 14:17:25 * Using 440.0MiB for in-memory UTXO set (plus up to 286.1MiB of unused mempool space)
+2018-06-30 14:17:25 init message: Loading block index...
+2018-06-30 14:17:25 Opening LevelDB in /home/pi/testnet/a/./regtest/blocks/index
+2018-06-30 14:17:25 Opened LevelDB successfully
+2018-06-30 14:17:25 Using obfuscation key for /home/pi/testnet/a/./regtest/blocks/index: 0000000000000000
+2018-06-30 14:17:25 Opening LevelDB in /home/pi/testnet/a/./regtest/chainstate
+2018-06-30 14:17:25 Opened LevelDB successfully
+2018-06-30 14:17:25 Using obfuscation key for /home/pi/testnet/a/./regtest/chainstate: aed0e86a8cc32285
+2018-06-30 14:17:25 LoadBlockIndexDB: last block file = 0
+2018-06-30 14:17:25 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=293, heights=0...0, time=2011-02-02...2011-02-02)
+2018-06-30 14:17:25 Checking all blk files are present...
+2018-06-30 14:17:25 LoadBlockIndexDB: transaction index disabled
+2018-06-30 14:17:25 LoadBlockIndexDB: hashBestChain=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 date=2011-02-02 23:16:42 progress=1.000000
+2018-06-30 14:17:25 init message: Rewinding blocks...
+2018-06-30 14:17:25 init message: Verifying blocks...
+2018-06-30 14:17:25  block index             158ms
+2018-06-30 14:17:25 init message: Loading wallet...
+2018-06-30 14:17:25 nFileVersion = 140200
+2018-06-30 14:17:25 Keys: 116 plaintext, 0 encrypted, 116 w/ metadata, 116 total
+2018-06-30 14:17:25  wallet                  102ms
+2018-06-30 14:17:25 setKeyPool.size() = 100
+2018-06-30 14:17:25 mapWallet.size() = 0
+2018-06-30 14:17:25 mapAddressBook.size() = 15
+2018-06-30 14:17:25 mapBlockIndex.size() = 1
+2018-06-30 14:17:25 nBestHeight = 0
+2018-06-30 14:17:25 Imported mempool transactions from disk: 0 successes, 0 failed, 0 expired
+2018-06-30 14:17:25 torcontrol thread start
+2018-06-30 14:17:25 init message: Loading addresses...
+2018-06-30 14:17:25 Loaded 0 addresses from peers.dat  1ms
+2018-06-30 14:17:25 init message: Loading banlist...
+2018-06-30 14:17:25 init message: Starting network threads...
+2018-06-30 14:17:25 dnsseed thread start
+2018-06-30 14:17:25 net thread start
+2018-06-30 14:17:25 opencon thread start
+2018-06-30 14:17:25 Loading addresses from DNS seeds (could take a while)
+2018-06-30 14:17:25 0 addresses found from DNS seeds
+2018-06-30 14:17:25 init message: Done loading
+2018-06-30 14:17:25 msghand thread start
+2018-06-30 14:17:25 dnsseed thread exit
+2018-06-30 14:17:25 addcon thread start
+2018-06-30 14:17:25 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:18:11 keypool added key 116, size=101
+2018-06-30 14:18:11 keypool reserve 16
+2018-06-30 14:18:12 keypool keep 16
+2018-06-30 14:18:26 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:18:26 Adding fixed seed nodes as DNS doesn't seem to be available.
+2018-06-30 14:19:26 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:20:27 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:20:38 keypool added key 117, size=101
+2018-06-30 14:20:38 keypool reserve 17
+2018-06-30 14:20:38 keypool keep 17
+2018-06-30 14:21:27 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:22:28 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:23:28 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:24:29 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:25:29 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:26:30 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:27:30 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:28:31 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:29:31 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:30:32 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:31:32 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:32:33 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:33:33 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:34:34 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:35:34 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:36:35 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:37:35 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:38:36 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:39:36 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:40:37 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:41:37 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:42:38 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:43:38 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:44:39 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:45:39 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:46:40 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:47:40 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:48:41 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:49:41 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:50:42 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:51:42 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:52:43 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:53:43 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 14:54:44 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:55:44 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:56:45 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:57:45 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:58:46 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 14:59:46 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:00:47 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:01:47 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:02:48 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:03:48 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:04:49 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:05:49 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:06:50 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:07:50 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:08:51 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:09:51 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:10:52 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:11:52 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:12:53 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:13:53 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:14:54 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:15:54 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:16:55 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:17:55 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:18:56 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:19:56 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:20:57 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:21:57 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:22:58 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:23:58 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:24:59 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:25:59 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:27:00 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:28:00 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:29:01 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:30:01 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:31:02 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:32:02 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:33:03 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:34:03 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:35:04 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:36:04 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:37:05 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:38:05 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:39:06 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:40:06 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:41:07 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:42:07 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:43:08 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:44:08 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:45:09 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:46:09 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:47:10 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:48:10 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:49:11 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:50:11 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:51:12 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:52:12 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:53:13 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:54:13 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:55:14 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 15:56:14 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:57:15 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:58:15 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 15:59:16 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:00:16 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:01:17 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:02:17 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:03:18 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:04:18 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:05:19 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:06:19 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:07:20 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:08:20 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:09:21 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:10:21 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:11:22 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:12:22 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:13:14 keypool added key 118, size=101
+2018-06-30 16:13:14 keypool reserve 18
+2018-06-30 16:13:14 keypool keep 18
+2018-06-30 16:13:23 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:14:23 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:15:24 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:16:24 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:17:25 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:18:25 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:19:26 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:20:26 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:21:27 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:22:27 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:23:28 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:24:28 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:25:29 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:26:29 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:27:30 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:28:30 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:29:31 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:30:31 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:31:32 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:32:32 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:33:33 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:34:33 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:35:34 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:36:34 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:37:35 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:38:35 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:39:36 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:40:36 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:41:37 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:42:37 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:43:38 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:44:38 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:45:39 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:46:39 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:47:40 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:48:40 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:49:41 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:50:41 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:51:42 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:52:42 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:53:43 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:54:43 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:55:44 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:56:44 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:57:45 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 16:58:45 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 16:59:46 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:00:46 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:01:47 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:02:47 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:03:48 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:04:48 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:05:49 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:06:49 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:07:50 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:08:50 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:09:51 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:10:51 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:11:52 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:12:52 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:13:53 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:14:53 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:15:54 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:16:54 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:17:55 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:18:55 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:19:56 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:20:56 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:21:57 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:22:57 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:23:58 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:24:58 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:25:59 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:26:59 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:28:00 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:29:00 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:30:01 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:31:01 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:32:02 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:33:02 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:34:03 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:35:03 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:36:04 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:37:05 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:38:05 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:39:06 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:40:06 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:41:07 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:42:07 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:43:08 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:44:08 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:45:09 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:46:09 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:47:10 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:48:10 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:49:11 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:50:11 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:51:12 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:52:12 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:53:13 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:54:13 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:55:14 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:56:14 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 17:57:15 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:58:15 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 17:59:16 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:00:16 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:01:17 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:02:17 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:03:18 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:04:18 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:05:19 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:06:19 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:07:20 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:08:20 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:09:21 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:10:21 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:11:22 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:12:22 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:13:23 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:14:23 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:15:24 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:16:24 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:17:25 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:18:25 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:19:26 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:20:26 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:21:27 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:22:27 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:23:28 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:24:28 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:25:29 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:26:29 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:27:30 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:28:30 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:29:31 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:30:31 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:31:32 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:32:32 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:33:33 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:34:33 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:35:34 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:36:34 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:37:35 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:38:35 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:39:36 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:40:36 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:41:37 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:42:37 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:43:38 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:44:38 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:45:39 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:46:39 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:47:40 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:48:40 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:49:41 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:50:41 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:51:42 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:52:42 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:53:43 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:54:43 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:55:44 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:56:44 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:57:45 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 18:58:45 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 18:59:46 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:00:46 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:01:47 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:02:47 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:03:48 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:04:48 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:05:49 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:06:49 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:07:50 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:08:50 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:09:51 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:10:51 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:11:52 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:12:52 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:13:53 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:14:53 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:15:54 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:16:54 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:17:55 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:18:55 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:19:56 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:20:56 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:21:57 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:22:57 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:23:58 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:24:58 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:25:59 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:26:59 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:28:00 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:29:00 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:30:01 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:31:01 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:32:02 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:33:02 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:34:03 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:35:03 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:36:04 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:37:04 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:38:05 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:39:05 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:40:06 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:41:06 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:42:07 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:43:07 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:44:08 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:45:08 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:46:09 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:47:09 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:48:10 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:49:10 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:50:11 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:51:11 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:52:12 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:53:12 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:54:13 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:55:13 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:56:14 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 19:57:14 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:58:15 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 19:59:15 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:00:16 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:01:16 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:02:17 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:03:17 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:04:18 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:05:18 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:06:19 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:07:19 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:08:20 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:09:20 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:10:21 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:11:21 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:12:22 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:13:22 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:14:23 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:15:23 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:16:24 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:17:24 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:18:25 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:19:25 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:20:26 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:21:26 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:22:27 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:23:27 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:24:28 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:25:28 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:26:29 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:27:29 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:28:30 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:29:30 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:30:31 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:31:31 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:32:32 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:33:32 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:34:33 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:35:33 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:36:34 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:37:34 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:38:35 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:39:35 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:40:36 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:41:36 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:42:37 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:43:37 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:44:38 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:45:38 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:46:39 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:47:39 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:48:40 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:49:40 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:50:41 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:51:41 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:52:42 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:53:42 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:54:43 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:55:43 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:56:44 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 20:57:44 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:58:45 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 20:59:45 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:00:46 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:01:46 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:02:47 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:03:47 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:04:48 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:05:48 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:06:49 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:07:49 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:08:50 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:09:50 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:10:51 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:11:51 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:12:52 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:13:52 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:14:53 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:15:53 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:16:54 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:17:54 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:18:55 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:19:55 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:20:56 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:21:56 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:22:57 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:23:57 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:24:58 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:25:58 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:26:59 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:27:59 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:29:00 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:30:00 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:31:01 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:32:01 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:33:02 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:34:02 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:35:03 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:36:03 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:37:04 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:38:04 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:39:05 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:40:05 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:41:06 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:42:06 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:43:07 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:44:07 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:45:08 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:46:08 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:47:09 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:48:09 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:49:10 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:50:10 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:51:11 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:52:11 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:53:12 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:54:12 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:55:13 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 21:56:13 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:57:14 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:58:14 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 21:59:15 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:00:15 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:01:16 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:02:16 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:03:17 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:04:17 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:05:18 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:06:18 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:07:19 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:08:19 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:09:20 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:10:20 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:11:21 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:12:21 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:13:22 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:14:22 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:15:23 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:16:23 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:17:24 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:18:24 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:19:25 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:20:25 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:21:26 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:22:26 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:23:27 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:24:27 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:25:28 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:26:28 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:27:29 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:28:29 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:29:30 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:30:30 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:31:31 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:32:31 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:33:32 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:34:32 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:35:33 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:36:33 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:37:34 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:38:34 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:39:35 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:40:35 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:41:36 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:42:36 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:43:37 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:44:37 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:45:38 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:46:38 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:47:39 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:48:39 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:49:40 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:50:40 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:51:41 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:52:41 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:53:42 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:54:43 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:55:43 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:56:44 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:57:44 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 22:58:45 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 22:59:45 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:00:46 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:01:46 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:02:47 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:03:47 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:04:48 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:05:48 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:06:49 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:07:49 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:08:50 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:09:50 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:10:51 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:11:51 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:12:52 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:13:52 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:14:53 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:15:53 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:16:54 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:17:54 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:18:55 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:19:55 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:20:56 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:21:56 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:22:57 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:23:57 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:24:58 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:25:58 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:26:59 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:27:59 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:29:00 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:30:00 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:31:01 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:32:01 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:33:02 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:34:02 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:35:03 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:36:03 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:37:04 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:38:04 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:39:05 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:40:05 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:41:06 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:42:06 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:43:07 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:44:07 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:45:08 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:46:08 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:47:09 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:48:09 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:49:10 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:50:10 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-06-30 23:51:11 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:52:11 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:53:12 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:54:12 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:55:13 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:56:13 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:57:14 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:58:14 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-06-30 23:59:15 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:00:15 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:01:16 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:02:16 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:03:17 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:04:17 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:05:18 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:06:18 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:07:19 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:08:19 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:09:20 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:10:20 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:11:21 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:12:21 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:13:22 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:14:22 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:15:23 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:16:23 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:17:24 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:18:24 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:19:25 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:20:25 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:21:26 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:22:26 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:23:27 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:24:27 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:25:28 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:26:28 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:27:29 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:28:29 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:29:30 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:30:30 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:31:31 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:32:31 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:33:27 keypool added key 119, size=101
+2018-07-01 00:33:27 keypool reserve 19
+2018-07-01 00:33:27 keypool keep 19
+2018-07-01 00:33:32 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:34:32 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:34:47 keypool added key 120, size=101
+2018-07-01 00:34:47 keypool reserve 20
+2018-07-01 00:34:47 keypool keep 20
+2018-07-01 00:35:30 keypool added key 121, size=101
+2018-07-01 00:35:30 keypool reserve 21
+2018-07-01 00:35:30 keypool keep 21
+2018-07-01 00:35:33 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:36:33 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:37:34 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:38:34 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:39:35 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:40:32 keypool added key 122, size=101
+2018-07-01 00:40:32 keypool reserve 22
+2018-07-01 00:40:32 keypool keep 22
+2018-07-01 00:40:35 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:41:36 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:41:46 keypool added key 123, size=101
+2018-07-01 00:41:46 keypool reserve 23
+2018-07-01 00:41:46 keypool keep 23
+2018-07-01 00:42:36 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:43:37 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:44:37 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:45:38 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:46:38 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:47:39 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:48:39 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:49:40 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:50:38 keypool added key 124, size=101
+2018-07-01 00:50:38 keypool reserve 24
+2018-07-01 00:50:38 keypool keep 24
+2018-07-01 00:50:40 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:51:41 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:52:41 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:53:42 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:54:42 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:55:43 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:56:43 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:57:44 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 00:58:44 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 00:59:45 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:00:45 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:01:46 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:02:46 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:03:47 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:04:47 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:05:48 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:06:48 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:07:49 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:08:49 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:09:50 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:10:50 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:11:51 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:12:51 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:13:52 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:14:52 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:15:53 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:16:53 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:17:54 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:18:54 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:19:55 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:20:55 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:21:56 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:22:56 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:23:57 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:24:57 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:25:58 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:26:58 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:27:59 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:28:42 keypool added key 125, size=101
+2018-07-01 01:28:42 keypool reserve 25
+2018-07-01 01:28:42 keypool keep 25
+2018-07-01 01:28:59 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:30:00 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:31:00 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:32:01 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:32:02 keypool added key 126, size=101
+2018-07-01 01:32:02 keypool reserve 26
+2018-07-01 01:32:02 keypool keep 26
+2018-07-01 01:33:01 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:34:02 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:35:02 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:36:03 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:37:03 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:38:04 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:39:04 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:40:05 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:41:05 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:42:05 keypool added key 127, size=101
+2018-07-01 01:42:05 keypool reserve 27
+2018-07-01 01:42:05 keypool keep 27
+2018-07-01 01:42:06 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:43:06 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:44:07 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:45:07 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:46:08 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:46:21 keypool added key 128, size=101
+2018-07-01 01:46:21 keypool reserve 28
+2018-07-01 01:46:21 keypool keep 28
+2018-07-01 01:47:08 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:48:09 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:48:50 keypool added key 129, size=101
+2018-07-01 01:48:50 keypool reserve 29
+2018-07-01 01:48:50 keypool keep 29
+2018-07-01 01:49:09 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:50:10 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:50:50 keypool added key 130, size=101
+2018-07-01 01:50:50 keypool reserve 30
+2018-07-01 01:50:50 keypool keep 30
+2018-07-01 01:51:10 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:51:45 keypool added key 131, size=101
+2018-07-01 01:51:45 keypool reserve 31
+2018-07-01 01:51:45 keypool keep 31
+2018-07-01 01:52:11 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:53:11 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:54:12 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:55:12 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 01:56:13 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:57:13 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:58:14 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 01:58:57 keypool added key 132, size=101
+2018-07-01 01:58:57 keypool reserve 32
+2018-07-01 01:58:57 keypool keep 32
+2018-07-01 01:59:14 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:00:15 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:01:15 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:02:16 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:03:16 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:03:41 keypool added key 133, size=101
+2018-07-01 02:03:41 keypool reserve 33
+2018-07-01 02:03:41 keypool keep 33
+2018-07-01 02:04:17 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:05:17 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:06:18 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:07:18 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:08:19 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:08:42 keypool added key 134, size=101
+2018-07-01 02:08:42 keypool reserve 34
+2018-07-01 02:08:42 keypool keep 34
+2018-07-01 02:09:02 keypool added key 135, size=101
+2018-07-01 02:09:02 keypool reserve 35
+2018-07-01 02:09:02 keypool keep 35
+2018-07-01 02:09:19 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:10:20 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:11:20 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:12:21 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:13:21 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:14:22 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:15:22 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:15:28 keypool added key 136, size=101
+2018-07-01 02:15:28 keypool reserve 36
+2018-07-01 02:15:28 keypool keep 36
+2018-07-01 02:16:23 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:17:23 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:18:24 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:19:17 keypool added key 137, size=101
+2018-07-01 02:19:17 keypool reserve 37
+2018-07-01 02:19:17 keypool keep 37
+2018-07-01 02:19:24 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:20:25 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:21:25 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:22:26 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:23:26 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:23:32 keypool added key 138, size=101
+2018-07-01 02:23:32 keypool reserve 38
+2018-07-01 02:23:32 keypool keep 38
+2018-07-01 02:24:27 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:25:27 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:26:28 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:27:28 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:28:29 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:29:29 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:30:30 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:31:30 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:32:31 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:33:31 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:34:15 keypool added key 139, size=101
+2018-07-01 02:34:15 keypool reserve 39
+2018-07-01 02:34:15 keypool keep 39
+2018-07-01 02:34:32 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:35:32 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:36:33 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:37:33 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:38:34 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:39:34 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:40:35 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:41:35 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:42:36 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:43:36 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:44:27 keypool added key 140, size=101
+2018-07-01 02:44:27 keypool reserve 40
+2018-07-01 02:44:27 keypool keep 40
+2018-07-01 02:44:29 keypool added key 141, size=101
+2018-07-01 02:44:29 keypool reserve 41
+2018-07-01 02:44:30 keypool keep 41
+2018-07-01 02:44:37 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:45:37 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:46:38 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:47:38 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:48:31 keypool added key 142, size=101
+2018-07-01 02:48:31 keypool reserve 42
+2018-07-01 02:48:31 keypool keep 42
+2018-07-01 02:48:39 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:49:39 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:50:40 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:51:40 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:52:41 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:53:41 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:54:42 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:55:42 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 02:56:43 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:57:43 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:58:44 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 02:59:44 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:00:45 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:01:45 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:02:46 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:03:46 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:04:47 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:05:47 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:06:48 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:07:48 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:08:49 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:09:49 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:10:50 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:11:50 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:12:51 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:13:51 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:14:28 keypool added key 143, size=101
+2018-07-01 03:14:28 keypool reserve 43
+2018-07-01 03:14:28 keypool keep 43
+2018-07-01 03:14:52 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:15:52 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:16:53 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:17:53 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:18:54 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:19:54 keypool added key 144, size=101
+2018-07-01 03:19:54 keypool reserve 44
+2018-07-01 03:19:54 keypool keep 44
+2018-07-01 03:19:54 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:20:55 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:21:55 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:22:56 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:23:56 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:24:57 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:25:57 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:26:58 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:27:58 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:28:59 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:29:59 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:31:00 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:32:00 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:33:01 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:34:01 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:35:02 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:35:21 keypool added key 145, size=101
+2018-07-01 03:35:21 keypool reserve 45
+2018-07-01 03:35:21 keypool keep 45
+2018-07-01 03:35:41 keypool added key 146, size=101
+2018-07-01 03:35:41 keypool reserve 46
+2018-07-01 03:35:41 keypool keep 46
+2018-07-01 03:36:02 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:37:03 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:37:44 keypool added key 147, size=101
+2018-07-01 03:37:44 keypool reserve 47
+2018-07-01 03:37:44 keypool keep 47
+2018-07-01 03:38:03 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:39:04 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:40:04 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:40:16 keypool added key 148, size=101
+2018-07-01 03:40:16 keypool reserve 48
+2018-07-01 03:40:16 keypool keep 48
+2018-07-01 03:40:42 keypool added key 149, size=101
+2018-07-01 03:40:42 keypool reserve 49
+2018-07-01 03:40:42 keypool keep 49
+2018-07-01 03:40:48 keypool added key 150, size=101
+2018-07-01 03:40:48 keypool reserve 50
+2018-07-01 03:40:48 keypool keep 50
+2018-07-01 03:41:05 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:42:05 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:42:32 keypool added key 151, size=101
+2018-07-01 03:42:32 keypool reserve 51
+2018-07-01 03:42:32 keypool keep 51
+2018-07-01 03:43:06 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:44:06 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:45:07 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:46:07 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:47:08 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:48:08 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:49:09 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:50:09 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:51:10 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:52:10 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:53:11 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:54:11 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:55:12 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:56:12 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:57:04 keypool added key 152, size=101
+2018-07-01 03:57:04 keypool reserve 52
+2018-07-01 03:57:04 keypool keep 52
+2018-07-01 03:57:13 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 03:58:13 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 03:59:07 keypool added key 153, size=101
+2018-07-01 03:59:07 keypool reserve 53
+2018-07-01 03:59:07 keypool keep 53
+2018-07-01 03:59:14 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:00:14 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:00:51 keypool added key 154, size=101
+2018-07-01 04:00:51 keypool reserve 54
+2018-07-01 04:00:51 keypool keep 54
+2018-07-01 04:01:15 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:02:15 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:03:16 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:04:16 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:05:17 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:06:17 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:07:18 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:07:27 keypool added key 155, size=101
+2018-07-01 04:07:27 keypool reserve 55
+2018-07-01 04:07:27 keypool keep 55
+2018-07-01 04:07:31 keypool added key 156, size=101
+2018-07-01 04:07:31 keypool reserve 56
+2018-07-01 04:07:32 keypool keep 56
+2018-07-01 04:08:18 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:09:19 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:09:20 keypool added key 157, size=101
+2018-07-01 04:09:20 keypool reserve 57
+2018-07-01 04:09:20 keypool keep 57
+2018-07-01 04:10:19 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:11:20 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:12:06 keypool added key 158, size=101
+2018-07-01 04:12:06 keypool reserve 58
+2018-07-01 04:12:06 keypool keep 58
+2018-07-01 04:12:20 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:13:11 keypool added key 159, size=101
+2018-07-01 04:13:11 keypool reserve 59
+2018-07-01 04:13:11 keypool keep 59
+2018-07-01 04:13:21 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:14:21 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:15:22 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:16:22 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:17:12 keypool added key 160, size=101
+2018-07-01 04:17:12 keypool reserve 60
+2018-07-01 04:17:12 keypool keep 60
+2018-07-01 04:17:23 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:18:23 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:19:24 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:20:24 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:21:25 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:22:25 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:23:26 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:24:26 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:25:27 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:26:28 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:27:28 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:28:29 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:29:29 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:30:30 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:31:30 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:31:50 keypool added key 161, size=101
+2018-07-01 04:31:51 keypool reserve 61
+2018-07-01 04:31:51 keypool keep 61
+2018-07-01 04:32:31 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:33:31 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:34:32 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:34:54 keypool added key 162, size=101
+2018-07-01 04:34:54 keypool reserve 62
+2018-07-01 04:34:54 keypool keep 62
+2018-07-01 04:35:32 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:36:33 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:36:53 keypool added key 163, size=101
+2018-07-01 04:36:53 keypool reserve 63
+2018-07-01 04:36:53 keypool keep 63
+2018-07-01 04:37:33 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:38:34 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:39:34 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:39:45 keypool added key 164, size=101
+2018-07-01 04:39:45 keypool reserve 64
+2018-07-01 04:39:45 keypool keep 64
+2018-07-01 04:40:35 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:41:35 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:42:36 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:43:36 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:44:37 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:45:37 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:46:38 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:47:00 keypool added key 165, size=101
+2018-07-01 04:47:00 keypool reserve 65
+2018-07-01 04:47:00 keypool keep 65
+2018-07-01 04:47:38 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:48:39 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:49:39 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:50:40 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:51:40 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:52:41 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:53:41 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:54:42 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:55:42 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:56:43 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:57:43 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 04:58:44 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 04:59:44 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:00:45 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:01:45 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:01:59 keypool added key 166, size=101
+2018-07-01 05:01:59 keypool reserve 66
+2018-07-01 05:02:00 keypool keep 66
+2018-07-01 05:02:46 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:03:46 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:04:47 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:05:47 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:06:48 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:07:48 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:08:49 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:09:49 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:10:50 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:11:50 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:12:42 keypool added key 167, size=101
+2018-07-01 05:12:43 keypool reserve 67
+2018-07-01 05:12:43 keypool keep 67
+2018-07-01 05:12:51 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:13:51 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:14:52 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:15:52 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:16:53 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:17:53 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:18:54 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:19:44 keypool added key 168, size=101
+2018-07-01 05:19:44 keypool reserve 68
+2018-07-01 05:19:44 keypool keep 68
+2018-07-01 05:19:54 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:20:55 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:21:55 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:22:56 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:23:56 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:24:57 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:25:57 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:26:58 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:27:58 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:28:59 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:29:59 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:31:00 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:32:00 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:33:01 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:34:01 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:35:02 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:36:02 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:36:13 keypool added key 169, size=101
+2018-07-01 05:36:13 keypool reserve 69
+2018-07-01 05:36:13 keypool keep 69
+2018-07-01 05:37:03 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:38:03 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:38:16 keypool added key 170, size=101
+2018-07-01 05:38:16 keypool reserve 70
+2018-07-01 05:38:16 keypool keep 70
+2018-07-01 05:39:04 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:40:04 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:41:05 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:41:25 keypool added key 171, size=101
+2018-07-01 05:41:25 keypool reserve 71
+2018-07-01 05:41:25 keypool keep 71
+2018-07-01 05:42:05 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:42:21 keypool added key 172, size=101
+2018-07-01 05:42:21 keypool reserve 72
+2018-07-01 05:42:21 keypool keep 72
+2018-07-01 05:43:06 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:44:06 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:45:07 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:46:07 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:47:08 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:48:08 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:48:37 keypool added key 173, size=101
+2018-07-01 05:48:37 keypool reserve 73
+2018-07-01 05:48:37 keypool keep 73
+2018-07-01 05:49:09 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:50:09 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:51:10 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:52:10 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:52:29 keypool added key 174, size=101
+2018-07-01 05:52:29 keypool reserve 74
+2018-07-01 05:52:29 keypool keep 74
+2018-07-01 05:53:11 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:54:11 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:55:12 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:56:12 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:57:13 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 05:58:13 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 05:59:14 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:00:01 keypool added key 175, size=101
+2018-07-01 06:00:01 keypool reserve 75
+2018-07-01 06:00:01 keypool keep 75
+2018-07-01 06:00:14 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:01:15 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:02:15 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:03:16 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:04:16 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:05:17 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:05:43 keypool added key 176, size=101
+2018-07-01 06:05:43 keypool reserve 76
+2018-07-01 06:05:43 keypool keep 76
+2018-07-01 06:06:17 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:07:18 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:08:18 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:09:19 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:10:19 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:11:20 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:12:20 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:13:21 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:14:21 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:15:22 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:15:38 keypool added key 177, size=101
+2018-07-01 06:15:38 keypool reserve 77
+2018-07-01 06:15:38 keypool keep 77
+2018-07-01 06:16:22 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:17:23 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:18:23 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:19:12 keypool added key 178, size=101
+2018-07-01 06:19:12 keypool reserve 78
+2018-07-01 06:19:12 keypool keep 78
+2018-07-01 06:19:24 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:20:24 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:21:25 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:22:25 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:23:26 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:24:26 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:25:27 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:26:27 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:27:28 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:28:28 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:29:29 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:30:29 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:31:23 keypool added key 179, size=101
+2018-07-01 06:31:23 keypool reserve 79
+2018-07-01 06:31:23 keypool keep 79
+2018-07-01 06:31:30 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:32:30 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:33:31 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:34:31 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:35:32 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:36:32 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:37:33 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:37:44 keypool added key 180, size=101
+2018-07-01 06:37:44 keypool reserve 80
+2018-07-01 06:37:44 keypool keep 80
+2018-07-01 06:38:33 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:39:34 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:40:34 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:41:35 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:42:35 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:43:25 keypool added key 181, size=101
+2018-07-01 06:43:25 keypool reserve 81
+2018-07-01 06:43:25 keypool keep 81
+2018-07-01 06:43:36 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:44:22 keypool added key 182, size=101
+2018-07-01 06:44:22 keypool reserve 82
+2018-07-01 06:44:22 keypool keep 82
+2018-07-01 06:44:36 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:45:37 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:46:37 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:47:38 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:48:02 keypool added key 183, size=101
+2018-07-01 06:48:02 keypool reserve 83
+2018-07-01 06:48:02 keypool keep 83
+2018-07-01 06:48:38 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:49:39 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:50:39 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:51:40 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:52:06 keypool added key 184, size=101
+2018-07-01 06:52:06 keypool reserve 84
+2018-07-01 06:52:06 keypool keep 84
+2018-07-01 06:52:40 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:53:41 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:54:41 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:55:03 keypool added key 185, size=101
+2018-07-01 06:55:03 keypool reserve 85
+2018-07-01 06:55:03 keypool keep 85
+2018-07-01 06:55:42 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:56:42 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 06:57:43 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:58:43 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 06:59:44 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:00:44 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 07:01:45 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 07:02:45 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 07:03:46 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 07:04:46 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 07:05:47 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 07:06:47 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:07:48 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 07:08:48 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 07:09:49 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:10:49 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 07:11:50 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 07:12:50 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:13:51 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:14:51 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:15:52 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:16:52 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:17:53 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 07:18:53 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:19:54 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:20:54 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 07:21:55 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:22:55 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:23:56 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 07:24:56 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:25:57 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:26:57 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:27:58 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 07:28:58 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 07:29:59 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 07:30:59 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:32:00 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:33:00 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:34:01 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:35:01 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 07:36:02 connect() to 127.0.0.1:38333 failed after select(): Connection refused (111)
+2018-07-01 07:37:02 connect() to [::1]:38333 failed after select(): Connection refused (111)
+2018-07-01 07:38:03 connect() to [::1]:38333 failed after select(): Connection refused (111)
