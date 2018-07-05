@@ -105,3 +105,31 @@ Android Client Application
 |-|-|
 |![](img/read.jpg)|![](img/star.jpg)|
 
+## Special Issue
+### MTA protocol max size
+
+* The default transmit size per request is 20bytes, thus we cut 16bytes per packet to do all the tasks.
+* But actually, the max size that MTA support is 512bytes, why we don't just change the max size?
+* Because there's some device that do not support change MTA protocol max size, and we find this issue so we use this approach to do the tasks.
+
+### Fake Address From Bluetooth
+
+* From Android O (Android 8.0), there's fucking feature that if you get the bluetooth address from normal approach, you'll get the fake address and you cannot connect it.
+
+* It's OKay in Android 5.0 ~ 7.0 (5.0 becuase only the version above 5.0 support ble).
+
+  ```java
+   String address = android.provider.Settings.Secure.getString(MainActivity.this.getContentResolver(), "bluetooth_address");
+  ```
+
+* In Android Oreo, you must to use this approach to get the bluetooth address. (Note that this approach cannot applied the android version below 5.0 (M) ).
+
+  ```java
+  Field mServiceField = bluetoothAdapter.getClass().getDeclaredField("mService");
+  mServiceField.setAccessible(true);
+  Object btManagerService = mServiceField.get(bluetoothAdapter);
+  if (btManagerService != null) {
+      bluetoothMacAddress = (String) btManagerService.getClass().getMethod("getAddress").invoke(btManagerService);
+  }
+  ```
+
