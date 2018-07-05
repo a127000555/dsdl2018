@@ -24,20 +24,20 @@ Android Client Application
 
 * Starting the app, you will get a message that requesting of the bluetooth permission.
 
-![request_bluetooth](/home/arvin/Desktop/class/DSDL/dsdl2018/Android/img/request_bluetooth.jpg)
+![request_bluetooth](img/request_bluetooth.jpg)
 
 ### Request of Location
 
 * In version above/equals android 5.0, there's an extra request of permission about coarse location.  
 |request 1| request 2|
 |-|-|
-|![request_location](/home/arvin/Desktop/class/DSDL/dsdl2018/Android/img/request_location.jpg)|![request_location](/home/arvin/Desktop/class/DSDL/dsdl2018/Android/img/request_location2.jpg)|
+|![request_location](img/request_location.jpg)|![request_location](img/request_location2.jpg)|
 
 ### Main page
 
 * The picture below shows the functions of this app, and I'll tell you what steps you ought do to achieve the bonus spec.
 
-![main_page](/home/arvin/Desktop/class/DSDL/dsdl2018/Android/img/main_page.jpg)
+![main_page](img/main_page.jpg)
 
 ### Start Scan / Stop Scan
 
@@ -49,7 +49,7 @@ Android Client Application
 
 |pressing the "START_SCAN", you'll get the message "掃描之前，請先膜拜麻麻三次<(_ _)>"|if find a device, the rightabove corner will show the discovered device.|
 |-|-|
-|![start_scan](/home/arvin/Desktop/class/DSDL/dsdl2018/Android/img/start_scan.jpg)|![start_scan](/home/arvin/Desktop/class/DSDL/dsdl2018/Android/img/read.jpg)|
+|![start_scan](/img/start_scan.jpg)|![start_scan](img/read.jpg)|
 
 ### Build Connection and Get Characterestic Info
 
@@ -57,4 +57,4 @@ Android Client Application
 
 |Press the device you want to connect, and it'll show a message that notify you, letting you check again.|If the connection is established, Press "UPDATE_LIST" in the below to get the characteristics from this advertiser.|
 |-|-|
-|![confirmed_connection](/home/arvin/Desktop/class/DSDL/dsdl2018/Android/img/confirmed_connection.jpg)|![read](/home/arvin/Desktop/class/DSDL/dsdl2018/Android/img/read.jpg)|
+|![confirmed_connection](img/confirmed_connection.jpg)|![read](img/read.jpg)|
