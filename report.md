@@ -10,5 +10,6 @@ The following things are the contribution of each team memeber:
 - B05902127: Set up raspi3 and build the connection, and design the Android app.
 
 ## The problem we had encountered
-- We can only connect success in some Android version, and this is not the problem that we can solve. Therefore, the method we use is to find a mobile phone that can connect to raspi3 successfully.
+- We can only connect success in some Android version and some mobile phone brand. Both of them are not the problem that we can solve. Therefore, the method we use is to find a mobile phone that can connect to raspi3 successfully.
 - When sending message to the mobile phone, if the message length is too long, the phone can't receive the message successfully. Our solution is seperate the message into small piece, and then send to the mobile phone respectively.
+- The advertisement will stop sometimes, so we write a while-loop to maintain the advertisement.
