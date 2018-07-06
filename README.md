@@ -2,7 +2,7 @@
 We are team 8, and the topic of our project is bluetooth cold wallet.
 Our work can be divided into three parts, Android app, bitcoin server, and settings on Raspberry pi.
 
-Here's the [the frame diagram](https://i.imgur.com/1vUhKep.png) of our project.
+Here's the [the frame diagram](https://i.imgur.com/1vUhKep.png) and [the google slide](https://docs.google.com/presentation/d/10Kka0CdcZJ_7oK076xW2ihCAMvf5uFlAQX1Bs19qM8g/edit?usp=sharing) of our project.
 
 For the details of Android app, please check Android/src. 
 There's the source code of the app. This app can help us communicate with the bitcoin server and Raspberry pi.
